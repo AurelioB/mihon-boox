@@ -12,6 +12,10 @@ pluginManagement {
         google()
         mavenCentral()
         maven(url = "https://www.jitpack.io")
+        maven {
+            url = uri("http://repo.boox.com/repository/maven-public/")
+            isAllowInsecureProtocol = true
+        }
     }
 }
 
@@ -32,6 +36,10 @@ dependencyResolutionManagement {
         mavenCentral()
         google()
         maven(url = "https://www.jitpack.io")
+        maven {
+            url = uri("http://repo.boox.com/repository/maven-public/")
+            isAllowInsecureProtocol = true
+        }
     }
 }
 

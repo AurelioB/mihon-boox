@@ -280,6 +280,9 @@ dependencies {
     // String similarity
     implementation(libs.stringSimilarity)
 
+    // Onyx SDK
+    implementation("com.onyx.android.sdk:onyxsdk-device:1.3.1.3")
+
     // Tests
     testImplementation(libs.bundles.test)
     testRuntimeOnly(libs.junit.platform.launcher)
